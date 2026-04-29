@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-black tracking-tighter mb-6">c
+            <h1 className="text-5xl md:text-6xl font-black tracking-tighter mb-6">
               FEATURED PROJECTS
             </h1>
             <p className="text-2xl text-muted-foreground max-w-2xl mx-auto">
