@@ -23,9 +23,15 @@ export function Navigation() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 100
 
+      // Set home as active if at top of page
+      if (scrollPosition < 200) {
+        setActiveSection('home')
+        return
+      }
+
       // Check each section
       navItems.forEach((item) => {
-        if (!item.hash) return
+        if (!item.hash || item.hash === '') return
         const section = document.getElementById(item.hash)
         if (section) {
           const { offsetTop, offsetHeight } = section
@@ -34,11 +40,6 @@ export function Navigation() {
           }
         }
       })
-
-      // Set home as active if at top
-      if (scrollPosition < 200) {
-        setActiveSection('')
-      }
     }
 
     window.addEventListener('scroll', handleScroll, { passive: true })
@@ -50,7 +51,7 @@ export function Navigation() {
   const isActive = (item: any) => {
     // Check if pathname matches and if hash matches active section
     if (pathname === '/') {
-      if (item.hash === '' && activeSection === '') return true
+      if (item.hash === '' && activeSection === 'home') return true
       if (item.hash === activeSection) return true
     }
     return pathname === item.href
