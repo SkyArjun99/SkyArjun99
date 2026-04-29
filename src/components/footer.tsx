@@ -12,7 +12,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-black tracking-tighter">ABOUT</h3>
             <p className="text-muted-foreground leading-relaxed">
-              A brutalist portfolio showcasing creative works, projects, and ideas. Built with passion and energy.
+              A brutalist portfolio showcasing creative  projects and ideas. Built with passion and energy.
             </p>
           </div>
 
