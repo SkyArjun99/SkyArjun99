@@ -314,29 +314,29 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* GitHub */}
-              <div className="bg-white dark:bg-black border-4 border-black dark:border-white p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] hover:scale-105 transition-transform">
+              <div className="bg-white dark:bg-black border-4 border-black dark:border-white p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] hover:scale-105 transition-transform flex flex-col">
                 <div className="text-center mb-6">
                   <div className="bg-black text-white dark:bg-white dark:text-black inline-flex items-center justify-center w-20 h-20 mb-4">
                     <Github className="h-10 w-10" />
                   </div>
-                  <h3 className="text-3xl font-black mb-2">GitHub</h3>
-                  <p className="text-muted-foreground">@developer</p>
+                  <h3 className="text-2xl md:text-3xl font-black mb-2 leading-tight">GitHub</h3>
+                  <p className="text-sm md:text-base text-muted-foreground">@developer</p>
                 </div>
-                <div className="grid grid-cols-3 gap-4 text-center mb-6">
-                  <div>
-                    <div className="text-2xl font-bold">250+</div>
-                    <div className="text-sm">Repositories</div>
+                <div className="grid grid-cols-3 gap-3 text-center mb-6">
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">250+</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Repositories</div>
                   </div>
-                  <div>
-                    <div className="text-2xl font-bold">5.2k</div>
-                    <div className="text-sm">Stars</div>
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">5.2k</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Stars</div>
                   </div>
-                  <div>
-                    <div className="text-2xl font-bold">1.8k</div>
-                    <div className="text-sm">Followers</div>
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">1.8k</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Followers</div>
                   </div>
                 </div>
-                <Button variant="brutalist" className="w-full" asChild>
+                <Button variant="brutalist" className="w-full mt-auto" asChild>
                   <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                     FOLLOW
                   </a>
@@ -344,29 +344,29 @@ export default function Home() {
               </div>
 
               {/* Twitter */}
-              <div className="bg-cyan-400 dark:bg-purple-500 border-4 border-black dark:border-white p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] hover:scale-105 transition-transform">
+              <div className="bg-cyan-400 dark:bg-purple-500 border-4 border-black dark:border-white p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] hover:scale-105 transition-transform flex flex-col">
                 <div className="text-center mb-6">
                   <div className="bg-black text-white dark:bg-white dark:text-black inline-flex items-center justify-center w-20 h-20 mb-4">
                     <Twitter className="h-10 w-10" />
                   </div>
-                  <h3 className="text-3xl font-black mb-2">Twitter</h3>
-                  <p className="text-muted-foreground">@developer</p>
+                  <h3 className="text-2xl md:text-3xl font-black mb-2 leading-tight">Twitter</h3>
+                  <p className="text-sm md:text-base text-muted-foreground">@developer</p>
                 </div>
-                <div className="grid grid-cols-3 gap-4 text-center mb-6">
-                  <div>
-                    <div className="text-2xl font-bold">12.5k</div>
-                    <div className="text-sm">Tweets</div>
+                <div className="grid grid-cols-3 gap-3 text-center mb-6">
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">12.5k</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Tweets</div>
                   </div>
-                  <div>
-                    <div className="text-2xl font-bold">8.3k</div>
-                    <div className="text-sm">Following</div>
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">8.3k</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Following</div>
                   </div>
-                  <div>
-                    <div className="text-2xl font-bold">15.7k</div>
-                    <div className="text-sm">Followers</div>
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">15.7k</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Followers</div>
                   </div>
                 </div>
-                <Button variant="brutalist" className="w-full" asChild>
+                <Button variant="brutalist" className="w-full mt-auto" asChild>
                   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                     FOLLOW
                   </a>
@@ -374,29 +374,29 @@ export default function Home() {
               </div>
 
               {/* LinkedIn */}
-              <div className="bg-yellow-400 dark:bg-pink-500 border-4 border-black dark:border-white p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] hover:scale-105 transition-transform">
+              <div className="bg-yellow-400 dark:bg-pink-500 border-4 border-black dark:border-white p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] hover:scale-105 transition-transform flex flex-col">
                 <div className="text-center mb-6">
                   <div className="bg-black text-white dark:bg-white dark:text-black inline-flex items-center justify-center w-20 h-20 mb-4">
                     <Linkedin className="h-10 w-10" />
                   </div>
-                  <h3 className="text-3xl font-black mb-2">LinkedIn</h3>
-                  <p className="text-muted-foreground">/in/developer</p>
+                  <h3 className="text-2xl md:text-3xl font-black mb-2 leading-tight">LinkedIn</h3>
+                  <p className="text-sm md:text-base text-muted-foreground">/in/developer</p>
                 </div>
-                <div className="grid grid-cols-3 gap-4 text-center mb-6">
-                  <div>
-                    <div className="text-2xl font-bold">500+</div>
-                    <div className="text-sm">Connections</div>
+                <div className="grid grid-cols-3 gap-3 text-center mb-6">
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">500+</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Connections</div>
                   </div>
-                  <div>
-                    <div className="text-2xl font-bold">15</div>
-                    <div className="text-sm">Endorsements</div>
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">15</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Endorsements</div>
                   </div>
-                  <div>
-                    <div className="text-2xl font-bold">45</div>
-                    <div className="text-sm">Skills</div>
+                  <div className="min-w-0">
+                    <div className="text-xl md:text-2xl font-bold leading-tight truncate">45</div>
+                    <div className="text-xs md:text-sm leading-tight mt-1">Skills</div>
                   </div>
                 </div>
-                <Button variant="brutalist" className="w-full" asChild>
+                <Button variant="brutalist" className="w-full mt-auto" asChild>
                   <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                     CONNECT
                   </a>

@@ -5,18 +5,56 @@ import { usePathname } from 'next/navigation'
 import { ThemeToggle } from './theme-toggle'
 import { Button } from '@/components/ui/button'
 import { Menu, X } from 'lucide-react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const navItems = [
-  { href: '/', label: 'HOME' },
-  { href: '/#projects', label: 'PROJECTS' },
-  { href: '/#social', label: 'SOCIAL' },
-  { href: '/#contact', label: 'CONTACT' },
+  { href: '/', label: 'HOME', hash: '' },
+  { href: '/#projects', label: 'PROJECTS', hash: 'projects' },
+  { href: '/#social', label: 'SOCIAL', hash: 'social' },
+  { href: '/#contact', label: 'CONTACT', hash: 'contact' },
 ]
 
 export function Navigation() {
   const pathname = usePathname()
+  const [activeSection, setActiveSection] = useState('')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 100
+
+      // Check each section
+      navItems.forEach((item) => {
+        if (!item.hash) return
+        const section = document.getElementById(item.hash)
+        if (section) {
+          const { offsetTop, offsetHeight } = section
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setActiveSection(item.hash)
+          }
+        }
+      })
+
+      // Set home as active if at top
+      if (scrollPosition < 200) {
+        setActiveSection('')
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    handleScroll() // Check initial position
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const isActive = (item: any) => {
+    // Check if pathname matches and if hash matches active section
+    if (pathname === '/') {
+      if (item.hash === '' && activeSection === '') return true
+      if (item.hash === activeSection) return true
+    }
+    return pathname === item.href
+  }
 
   return (
     <nav className="sticky top-0 z-50 bg-background border-b-4 border-black dark:border-white">
@@ -37,8 +75,8 @@ export function Navigation() {
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
                 <Button
-                  variant={pathname === item.href ? 'brutalist' : 'brutalistOutline'}
-                  className="text-lg font-bold"
+                  variant={isActive(item) ? 'brutalist' : 'brutalistOutline'}
+                  className="text-lg font-bold hover:bg-cyan-400 dark:hover:bg-purple-500 hover:border-cyan-400 dark:hover:border-purple-500 transition-all"
                 >
                   {item.label}
                 </Button>
@@ -70,8 +108,8 @@ export function Navigation() {
               {navItems.map((item) => (
                 <Link key={item.href} href={item.href} onClick={() => setMobileMenuOpen(false)}>
                   <Button
-                    variant={pathname === item.href ? 'brutalist' : 'brutalistOutline'}
-                    className="w-full text-lg font-bold"
+                    variant={isActive(item) ? 'brutalist' : 'brutalistOutline'}
+                    className="w-full text-lg font-bold hover:bg-cyan-400 dark:hover:bg-purple-500 hover:border-cyan-400 dark:hover:border-purple-500 transition-all"
                   >
                     {item.label}
                   </Button>
