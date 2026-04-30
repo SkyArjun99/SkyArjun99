@@ -1,4 +1,4 @@
-# 🚀 Arjun Korlekar's GitHub Hub 🚀
+# 🚀 My Profile! 🚀
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,4,5,6,7,8,9,10,18&height=220&section=header&text=ARJUN&fontSize=78&fontAlignY=38&desc=A%20First-Year%20Engineering%20Student%20&descAlignY=56&descAlign=50&animation=twinkling&fontColor=ffffff&descColor=f0f0f0)
 
