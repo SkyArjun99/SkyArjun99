@@ -1,8 +1,8 @@
 # 🚀 Arjun Korlekar's GitHub Hub 🚀
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,4,5,6,7,8,9,10,18&height=220&section=header&text=ARJUN&fontSize=78&fontAlignY=38&desc=A%20First-Year%20Engineering%20Student%20%7C%20Full-Stack%20Builder&descAlignY=56&descAlign=62&animation=twinkling&fontColor=ffffff&descColor=f0f0f0)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,4,5,6,7,8,9,10,18&height=220&section=header&text=ARJUN&fontSize=78&fontAlignY=38&desc=A%20First-Year%20Engineering%20Student%20&descAlignY=56&descAlign=50&animation=twinkling&fontColor=ffffff&descColor=f0f0f0)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&duration=3500&pause=800&color=38C2FF&center=true&vCenter=true&width=900&lines=%F0%9F%91%8B+Hey!+I'm+Arjun;%E2%9A%A1+19-year-old+Engineering+Student;%F0%9F%92%BB+Frontend+%7C+Backend+%7C+System+Tech;%F0%9F%9A%80+Building+the+Future%2C+One+Repo+at+a+Time;%F0%9F%93%9A+Currently+Grinding+DSA+and+Distributed+Systems)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&duration=3500&pause=800&color=38C2FF&center=true&vCenter=true&width=900&lines=%F0%9F%91%8B+Hey!+I'm+Arjun;%E2%9A%A1+19-year-old+Engineering+Student;%F0%9F%92%BB+Frontend+%7C+Backend;%F0%9F%9A%80+Building+the+Future%2C+One+Repo+at+a+Time;%F0%9F%93%9A+Currently+Grinding+DSA+and+Distributed+Systems)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SkyArjun99&label=PROFILE+VIEWS&color=blueviolet&style=for-the-badge&abbreviated=true)  
 ![Last Updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSkyArjun99&query=%24.updated_at&label=LAST+UPDATED&color=ff69b4&style=for-the-badge&logo=github&logoColor=white)
