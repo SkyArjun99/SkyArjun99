@@ -118,7 +118,7 @@ timeline
     May 2025 : Wrote first HTML page
          : CSS Amused me 
     Oct 2025 : First Academic Month at COEP Tech
-          :Watched Tutorials for Many languages
+          : Watched Tutorials for Many languages
           : No Projects Made
          : Stuck in Tutorial Hell!!!
     Dec 2025: Joined StartUp fest 2026 
