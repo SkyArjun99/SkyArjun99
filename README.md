@@ -54,8 +54,6 @@ mindmap
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 
 ### ⚙️ Backend & APIs
 
@@ -99,14 +97,9 @@ mindmap
 
 ## 🕰️ **The Journey So Far – From `Hello World` to Production Code**
 
-*A developer's story is never linear. Here's![Contribution Snake](https://raw.githubusercontent.com/SkyArjun99/SkyArjun99/output/github-contribution-grid-snake.svg)
-
-*(To enable the snake animation, set up the [snk](https://github.com/Platane/snk) GitHub Action.)*
- mine, told in milestones.*
-
 ```mermaid
 timeline
-    title Your Coding Odyssey
+    title My Coding Odyssey
     May 2025 : Wrote first HTML page
              : CSS Amused me 
     Oct 2025 : First Academic Month at COEP Tech
