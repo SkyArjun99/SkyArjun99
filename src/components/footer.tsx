@@ -12,7 +12,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-black tracking-tighter">ABOUT</h3>
             <p className="text-muted-foreground leading-relaxed">
-              A brutalist portfolio showcasing creative  projects and ideas. Built with passion and energy.
+              A brutalist portfolio showcasing creative projects and ideas. Built with passion and energy.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ export function Footer() {
             <h3 className="text-2xl font-black tracking-tighter">CONNECT</h3>
             <div className="flex flex-wrap gap-3">
               <Button variant="brutalistOutline" size="icon" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/SkyArjun99" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -50,12 +50,12 @@ export function Footer() {
                 </a>
               </Button>
               <Button variant="brutalistOutline" size="icon" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/arjun142235351" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="brutalistOutline" size="icon" asChild>
-                <a href="mailto:hello@example.com">
+                <a href="mailto:arjunkorlekar51@gmail.com">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>

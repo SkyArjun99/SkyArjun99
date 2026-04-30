@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Arjun Korlekar",
   description: "A brutalist portfolio website showcasing creative works, projects, and ideas with energetic and vibrant design.",
   keywords: ["portfolio", "brutalism", "web design", "creative", "projects", "Next.js", "TypeScript"],
-  authors: [{ name: "Creative Developer" }],
+  authors: [{ name: "Arjun Korlekar" }],
   
   
   openGraph: {
