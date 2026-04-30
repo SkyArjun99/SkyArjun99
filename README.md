@@ -41,13 +41,6 @@ mindmap
       Matrix Algebra
       Statistics Basics
 ```
-
-*This mindmap auto‑updates mentally every week – my actual roadmap is a living Notion doc, but you get the vibe.*
-
-| ✅ Current Sprint (Jan 2026 – Present) | 🔮 Near Future (Q2 2026) | 🎓 University (COEP Tech) |
-|----------------------------------------|---------------------------|---------------------------|
-| • 🚀 Shipping a SaaS dashboard with Next.js  • 🧠 Learning SQL query optimisation • 🧪 Writing integration tests with Jest | • ⚔️ DSA deep dive (NeetCode 150)• 🐳 Containerising apps with Docker • 🤝 Contributing to open source | • 📐 Engineering Mathematics • ⚛️ Physics for Engineers • 💻 Intro to Programming in C |
-
 ---
 
 ## 🧰 **Tech Arsenal – The Tools I Speak (For now , Caveman)**
@@ -102,34 +95,33 @@ mindmap
 
 ![Trophy Case](https://github-profile-trophy.vercel.app/?username=SkyArjun99&theme=radical&no-frame=true&row=2&column=4&margin-w=15&margin-h=15)
 
-![Contribution Snake](https://raw.githubusercontent.com/SkyArjun99/SkyArjun99/output/github-contribution-grid-snake.svg)
-
-*(To enable the snake animation, set up the [snk](https://github.com/Platane/snk) GitHub Action.)*
-
 ---
 
 ## 🕰️ **The Journey So Far – From `Hello World` to Production Code**
 
-*A developer's story is never linear. Here's mine, told in milestones.*
+*A developer's story is never linear. Here's![Contribution Snake](https://raw.githubusercontent.com/SkyArjun99/SkyArjun99/output/github-contribution-grid-snake.svg)
+
+*(To enable the snake animation, set up the [snk](https://github.com/Platane/snk) GitHub Action.)*
+ mine, told in milestones.*
 
 ```mermaid
 timeline
     title Your Coding Odyssey
     May 2025 : Wrote first HTML page
-         : CSS Amused me 
+             : CSS Amused me 
     Oct 2025 : First Academic Month at COEP Tech
-          : Watched Tutorials for Many languages
-          : No Projects Made
-         : Stuck in Tutorial Hell!!!
+             : Watched Tutorials for Many languages
+             : No Projects Made
+             : Stuck in Tutorial Hell!!!
     Dec 2025: Joined StartUp fest 2026 
-         : Contributed as Web-&-Tech Volunteer
-         : Connected with Experienced Seniors
+            : Contributed as Web-&-Tech Volunteer
+            : Connected with Experienced Seniors
     Feb 2026 : Found that there's more to data than JSON files
-         : Took a deep dive into Next.js
-         : Started learning Databases 
+             : Took a deep dive into Next.js
+             : Started learning Databases 
     April 2026 : Made my first Full Stack
-         : Introduction to Docker Containers
-         : First glance at PostgresSQL
+               : Introduction to Docker Containers
+               : First glance at PostgresSQL
 ```
 
 ### 📖 My Learning Philosophy
