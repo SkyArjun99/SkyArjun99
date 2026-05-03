@@ -147,7 +147,7 @@ Transform fragmented notes into an interconnected semantic network. Built for de
 
 **Stack:** Next.js 15 
 
-My digital garden with interactive 3D elements, blog, and live code sandboxes. Designed to be a "tech resume that runs in a browser".
+My digital garden with interactive 3D elements. Designed to be a "tech resume that runs in a browser".
 
 [![Code](https://img.shields.io/badge/CODE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SkyArjun99/SkyArjun99)  
 
